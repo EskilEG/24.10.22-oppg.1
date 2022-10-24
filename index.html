@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="no">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style>
+           
+            body {
+                width: fit-content;
+                margin: auto;
+            }
+            table {
+                background-color: blue;
+            }
+            tr:nth-child(odd) {
+                background-color: springgreen;
+            }
+            .overskrift {
+                background-color: aqua;
+                color: red;
+                font-size: 4rem;
+            }
+            td {
+                font-size: 3rem;
+                color: white;
+            }
+            th {
+                font-size: 4rem;
+            }
+            .sum {
+                color: black;
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th class="overskrift" colspan="2"> År</th>
+                </tr>
+            </thead>
+            <tr>
+                <th>Måned</th>
+                <th>Tjent</th>
+            </tr>
+            <tr>
+                <td>januar</td>
+                <td>10000 kr</td>
+            </tr>
+            <tr>
+                <td>februar</td>
+                <td>15000 kr</td>
+            </tr>
+            <tr>
+                <td>mars</td>
+                <td>25000 kr</td>
+            </tr>
+            <tr>
+                <td>april</td>
+                <td>15000 kr</td>
+            </tr>
+            <tr>
+                <td>mai</td>
+                <td>15000 kr</td>
+            </tr>
+            <tr>
+                <td>juni</td>
+                <td>10000 kr</td>
+            </tr>
+            <tr>
+                <td>juli</td>
+                <td>15000 kr</td>
+            </tr>
+            <tr>
+                <td class="sum" colspan="2">Sum: 105000 kr</td>
+            </tr>
+        </table>
+    </body>
+</html>
